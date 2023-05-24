@@ -14,3 +14,4 @@ Los componentes los podemos ver [aqui](https://chakra-ui.com/docs/components)
 - Box component: Es el componente base sobre el que esta constuido todo en chakra-ui, se renderiza 
   sobre un div.
 - Flex component: es un Box componente pero con la propiedad CSS `display: flex`
+- Stack component: Es un layout component y facilita stack components juntos y aplicar espacio entre ellos, ya sea verticual(VStack) u horizontal(HStack).

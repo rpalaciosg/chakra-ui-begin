@@ -1,11 +1,13 @@
 import './App.css'
-import { Box, Flex } from '@chakra-ui/react';
-
+import { Box, Stack, VStack, HStack } from '@chakra-ui/react';
+ 
 function App() {
 
   return (
     <div className='App'>
-      <Flex justify="space-between" align="center">
+      {/* <Stack spacing="24px" direction="row"> */}
+      {/* <VStack spacing="24px"> */}
+      <HStack spacing="24px">
       <Box bg='green' w='100px' h='200px'>
         Esta es un Box component de chakra-ui
       </Box>
@@ -18,7 +20,7 @@ function App() {
       <Box bg='tomato' w='100px' h='200px'>
         Item 4
       </Box>
-      </Flex>
+      </HStack>
     </div>
   )
 }
