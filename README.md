@@ -15,3 +15,4 @@ Los componentes los podemos ver [aqui](https://chakra-ui.com/docs/components)
   sobre un div.
 - Flex component: es un Box componente pero con la propiedad CSS `display: flex`
 - Stack component: Es un layout component y facilita stack components juntos y aplicar espacio entre ellos, ya sea verticual(VStack) u horizontal(HStack).
+- Text component: es usado para renderizar texto y parrafor en una interfaz, por defecto rederiza `<p>` tag.
