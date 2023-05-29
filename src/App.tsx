@@ -1,14 +1,14 @@
 import './App.css'
-import { Text, Box, Stack, VStack, HStack } from '@chakra-ui/react';
+import { Heading } from '@chakra-ui/react';
  
 function App() {
 
   return (
     <div className='App'>
-      <Text noOfLines={2}>
+      <Heading fontSize="48px">
         Esta es un Box component de chakra-ui,
         otro texto en bloque.
-      </Text>
+      </Heading>
     </div>
   )
 }
