@@ -23,5 +23,10 @@ Estas props las podemos encontrar en [Style Props](https://chakra-ui.com/docs/st
 
 - Pseudo Style Props: debemos usar el guión bajo antes de la prop para aplicarlos ejm: `_hover`, el valor que se pone dentro de esta prop es un objeto. Estas props ayudaran a permitir hacer cambios mas detallados al css desde estas props.
 
-### UI design with figma
+## UI design with figma
 Hay un kit de diseño de Ui para figma [aqui](https://chakra-ui.com/figma/ui-kit).
+
+## Ejemplos:
+Vamos a replicar el [siguiente diseño](https://www.figma.com/file/2UvLO274B9TNdsChCIC0hi/Pricing-UI?node-id=0%3A1) que esta en figma, usando chakra Ui.
+
+1. Construyendo header Section: 
