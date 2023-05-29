@@ -22,3 +22,6 @@ Los componentes los podemos ver [aqui](https://chakra-ui.com/docs/components)
 Estas props las podemos encontrar en [Style Props](https://chakra-ui.com/docs/styled-system/style-props) 
 
 - Pseudo Style Props: debemos usar el guión bajo antes de la prop para aplicarlos ejm: `_hover`, el valor que se pone dentro de esta prop es un objeto. Estas props ayudaran a permitir hacer cambios mas detallados al css desde estas props.
+
+### UI design with figma
+Hay un kit de diseño de Ui para figma [aqui](https://chakra-ui.com/figma/ui-kit).
