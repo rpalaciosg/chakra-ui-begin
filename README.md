@@ -29,4 +29,5 @@ Hay un kit de diseño de Ui para figma [aqui](https://chakra-ui.com/figma/ui-kit
 ## Ejemplos:
 Vamos a replicar el [siguiente diseño](https://www.figma.com/file/2UvLO274B9TNdsChCIC0hi/Pricing-UI?node-id=0%3A1) que esta en figma, usando chakra Ui.
 
-1. Construyendo header Section: 
+1. Construyendo header Section.
+2. Construyendo Pricing section(parte izquierda).
