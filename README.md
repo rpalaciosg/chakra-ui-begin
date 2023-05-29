@@ -20,3 +20,5 @@ Los componentes los podemos ver [aqui](https://chakra-ui.com/docs/components)
 
 - **Style Props**: es una forma para alterar estilos de un componente, pasando las propiedades. Ejm. margin `m={2}` maxWidt con `maxW="960px"`. Nos permite editar estilos sin tener que tocar el css directamente.
 Estas props las podemos encontrar en [Style Props](https://chakra-ui.com/docs/styled-system/style-props) 
+
+- Pseudo Style Props: debemos usar el guión bajo antes de la prop para aplicarlos ejm: `_hover`, el valor que se pone dentro de esta prop es un objeto. Estas props ayudaran a permitir hacer cambios mas detallados al css desde estas props.
