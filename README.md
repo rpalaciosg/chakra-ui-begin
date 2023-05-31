@@ -1,4 +1,4 @@
-# Chakra-ui
+Styled System Theme Specification# Chakra-ui
 
 Probando chakra-ui con React y Typescript.
 
@@ -45,4 +45,15 @@ El objeto `theme`es donde se define la paleta de colores de mi aplicacion, como 
 - Fonts
 - Breakpoints
 - Spacing
+
+## Refactoring UI with Theme Tokens
+- Header componente:
+  - Heading `fontWeight` replace _800_ value to _extrabold_.
+  - replace `fontSize` _48px_ value to _5xl_.
+  - replace del componente `Text`la propiedad `fontWeig` el valor _500_ por _medium_.
+  - reemplaza _24px_ por _2xl_ en la propiedad `fontSize`del componente `Text`
+  - reemplaza _112px_ por _28_ la propiedad `pb` del componente `Box`
+  - reemplaza _#F7FAFC_ por _gray.50_ la propiedad `color` del componente `Box`
+
+El hacer uso de los theme tokens nos agrega consistencia a la hora de crear y actualizar nuestra ui.
 
