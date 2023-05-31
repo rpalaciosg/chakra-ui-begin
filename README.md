@@ -1,6 +1,14 @@
-Styled System Theme Specification# Chakra-ui
+# Chakra-ui
 
 Probando chakra-ui con React y Typescript.
+
+## Tabla de contenidos
+
+- Components
+- Style props
+- Default theme
+- Responsiveness
+- How to use Chakra UI in your project
 
 ## Getting started
 
@@ -69,4 +77,5 @@ los breakpoints de los theme tokens de chakra-ui.
 ## Constuyendo una UI responsive
 
 - Refactorizar Header component para que sea responsive.
-- Refactoizar Princing component para que sea responsive
+- Refactoizar Princing component para que sea responsive.
+- Refactorizar Features componente para que sea responsive.
