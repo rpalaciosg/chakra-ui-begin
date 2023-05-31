@@ -4,15 +4,16 @@ import { CheckIcon } from '../icons/Icons';
 export const ListItem = (props: StackProps) => {
   const { children, ...rest } = props;
   return(
-    <HStack as="li" spacing="5" {...rest}>
+    <HStack as="li" spacing="5" {...rest} alignItems='start'>
       <Icon as={CheckIcon} w="22px" h="22px" />
-      <Text>{children}</Text>
+      <Text textAlign={["left","left","center"]}>{children}</Text>
     </HStack>
   )
 }
 
 export function Princing() {
   return(
+    <Box mx="6">
     <Box maxW="994px" margin="auto" mt="-40" 
       borderRadius="xl" 
       overflow="hidden" 
@@ -20,12 +21,12 @@ export function Princing() {
       textAlign="center"
       as = "section"
     >
-      <Flex>
+      <Flex direction={["column","column", "row"]}>
         <Box bg="#F0EAFB" p="60px">
           <Text fontSize="xl" fontWeight="extrabold">
             Premium PRO
           </Text>
-          <Heading as="h3" fontSize="60px" mt="4">
+          <Heading as="h3" fontSize={["5xl","5xl","6xl"]} mt="4">
             $329
           </Heading>
           <Text color="gray.900" fontSize="lg" fontWeight="medium"
@@ -45,6 +46,7 @@ export function Princing() {
           </Stack>
         </Box>
       </Flex>
+    </Box>
     </Box>
   );
 }

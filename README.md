@@ -69,3 +69,4 @@ los breakpoints de los theme tokens de chakra-ui.
 ## Constuyendo una UI responsive
 
 - Refactorizar Header component para que sea responsive.
+- Refactoizar Princing component para que sea responsive
