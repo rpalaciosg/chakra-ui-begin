@@ -65,3 +65,7 @@ mobile-firts para mis estilos responsive. `<Box w={[300, 400, 500]}>`
 
 Usamos `@media(min-width)` para asegurarnos que nuestra interfaz es mobile-first. Aqui podemos usar 
 los breakpoints de los theme tokens de chakra-ui.
+
+## Constuyendo una UI responsive
+
+- Refactorizar Header component para que sea responsive.
