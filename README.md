@@ -57,3 +57,11 @@ El objeto `theme`es donde se define la paleta de colores de mi aplicacion, como 
 
 El hacer uso de los theme tokens nos agrega consistencia a la hora de crear y actualizar nuestra ui.
 
+## Responsive Styles
+
+Chakra-ui soport estilos responsive fuera de la caja, es decir sin añadir `@media` queries y añadir
+estilos anidados a el codigo, chalra permite proveer un objeto y de valores de un array de estilos 
+mobile-firts para mis estilos responsive. `<Box w={[300, 400, 500]}>`
+
+Usamos `@media(min-width)` para asegurarnos que nuestra interfaz es mobile-first. Aqui podemos usar 
+los breakpoints de los theme tokens de chakra-ui.
