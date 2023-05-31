@@ -11,9 +11,18 @@ Probando chakra-ui con React y Typescript.
 - How to use Chakra UI in your project
 
 ## Getting started
-
 Se puede empazar siguiendo la guia en la [documentacion](https://chakra-ui.com/getting-started/).
 
+1. Crear o inciar proyecto de react con typescript usando `vite`
+```console
+  yarn create vite
+```
+2. Instalar dependencias `yarn` o `yarn dev`
+3. Instalar chakra-ui en este caso con vite.
+  ```console
+  yarn add @chakra-ui/react @emotion/react @emotion/styled framer-motion  
+  ```
+4. Configurar chakra provider
 ## Componentes
 
 Los componentes los podemos ver [aqui](https://chakra-ui.com/docs/components)
