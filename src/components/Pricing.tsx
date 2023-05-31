@@ -1,5 +1,5 @@
 import { Box, Button, Flex, HStack, Heading, Icon, Stack, StackProps, Text } from "@chakra-ui/react";
-import { CheckIcon } from '../icons/Icon';
+import { CheckIcon } from '../icons/Icons';
 import React from "react";
 
 export const ListItem = (props: StackProps) => {

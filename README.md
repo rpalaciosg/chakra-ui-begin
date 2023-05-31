@@ -32,3 +32,8 @@ Vamos a replicar el [siguiente diseño](https://www.figma.com/file/2UvLO274B9TNd
 1. Construyendo header Section.
 2. Construyendo Pricing Section (parte izquierda).
 3. Constuyendo Princing Section (parte derecha).: Tengo que copiar los svg de los inconos de check en de figma.
+4. Constuyendo la Feature Section o seccion de caracteristicas.: Se copia los SVG en el archivos `Icons.tsx`
+  - Aqui creamos 2 componentes:
+    1. Iconos.
+    2. Feature: continene el icono y texto.
+    3. Features: continene el componente Feature

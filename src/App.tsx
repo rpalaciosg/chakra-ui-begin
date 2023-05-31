@@ -1,4 +1,5 @@
 import './App.css'
+import { Features } from './components/Features'
 import { Header } from './components/Header'
 import { Princing } from './components/Pricing'
 
@@ -8,6 +9,7 @@ function App() {
     <div className='App'>
       <Header/>
       <Princing/>
+      <Features/>
     </div>
   )
 }
