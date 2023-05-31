@@ -37,3 +37,12 @@ Vamos a replicar el [siguiente diseño](https://www.figma.com/file/2UvLO274B9TNd
     1. Iconos.
     2. Feature: continene el icono y texto.
     3. Features: continene el componente Feature
+
+## Entendiento el Desault theme de chakra-ui
+El objeto `theme`es donde se define la paleta de colores de mi aplicacion, como el tipo de escala, el grupo de fuentes, brakpoints, volores del vorder radius y muchas otras cosas mas. Esta basado en [Styled System Theme Specification](Styled System Theme Specification)
+
+- Colors
+- Fonts
+- Breakpoints
+- Spacing
+
